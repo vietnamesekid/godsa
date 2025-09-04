@@ -1,7 +1,11 @@
 package algorithms
 
-import "slices"
-
 func LinearSearch(arr []int, needle int) bool {
-	return slices.Contains(arr, needle)
+	for i := 0; i < len(arr); i++ {
+		if arr[i] == needle {
+			return true
+		}
+	}
+
+	return false
 }
