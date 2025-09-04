@@ -20,8 +20,8 @@ All algorithm implementations are located in the `algorithms/` directory. Each f
 
 1. Clone the repository:
 	```sh
-	git clone <your-repo-url>
-	cd gopher
+	git clone git@github.com:vietnamesekid/godsa.git
+	cd godsa
 	```
 2. Run any algorithm example:
 	```sh
